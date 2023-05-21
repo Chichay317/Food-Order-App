@@ -1,0 +1,13 @@
+.home-img {
+  overflow: hidden;
+  height: 30rem;
+  width: 100%;
+}
+
+.home-img img {
+  object-fit: cover;
+  transform: rotateZ(-5deg) translateY(-12rem) translateX(-1rem);
+  width: 110%;
+  height: 100%;
+  overflow: hidden;
+}

@@ -1,0 +1,43 @@
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.loading {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.meal-card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.meals {
+  margin-top: 50px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

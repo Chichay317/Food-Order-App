@@ -1,0 +1,83 @@
+.cart-items {
+  list-style: none;
+  overflow: auto;
+  max-height: 20rem;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.total-amount {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.total-price {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.actions button {
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #8a2b06;
+  background: none;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+
+.submitted-close {
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #8a2b06;
+  background: #8a2b06;
+  padding: 8px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 15px;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+  margin-left: 500px;
+}
+
+.submitted-close:hover,
+.submitted-close:active {
+  background-color: #fff;
+  color: #8a2b06;
+}
+
+.actions-close {
+  color: #8a2b06;
+  transition: all 0.3s ease-in-out;
+}
+
+.actions-close:hover,
+.actions-close:active {
+  background-color: #8a2b06;
+  color: #fff;
+}
+
+.actions .actions-order {
+  background-color: #8a2b06;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.actions .actions-order:hover,
+.actions .actions-order:active {
+  background-color: #fff;
+  color: #8a2b06;
+}

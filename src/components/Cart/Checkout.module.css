@@ -1,0 +1,67 @@
+form {
+  max-height: 20rem;
+  overflow: auto;
+  padding: 15px 0px;
+}
+
+.error {
+  margin-bottom: 8px;
+  color: red;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form-group input {
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  width: 50%;
+  padding: 5px 8px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+.checkout-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.checkout-buttons button {
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #8a2b06;
+  background: none;
+  padding: 8px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+
+.checkout-buttons button:first-child {
+  color: #8a2b06;
+  transition: all 0.3s ease-in-out;
+}
+
+.checkout-buttons button:first-child:hover,
+.checkout-buttons button:first-child:active {
+  background-color: #8a2b06;
+  color: #fff;
+}
+
+.checkout-buttons button:last-child {
+  background-color: #8a2b06;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.checkout-buttons button:last-child:hover,
+.checkout-buttons button:last-child:active {
+  background-color: #fff;
+  color: #8a2b06;
+}
